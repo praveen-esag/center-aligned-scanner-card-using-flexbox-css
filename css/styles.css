@@ -15,23 +15,23 @@ body {
     overflow: hidden;
 }
 
-.mainSec .container {
-    max-width: 90%;
+/* .mainSec .container-fluid {
+    max-width: 100%;
     margin: auto;
     height: 100%;
 }
 
-.mainSec .container .row {
+.mainSec .container-fluid .row {
     height: 100%;
     display: flex;
     align-items: center;
     justify-content: center;
-}
+} */
 
 .cardArea {
     width: 100%;
     background: hsl(212, 45%, 89%);
-    height: 75%;
+    height: 100svh;
     display: flex;
     align-items: center;
     box-shadow: 0 10px 20px rgba(0, 0, 0, 0.16), 0 4px 10px rgb(255 255 255 / 23%);
@@ -78,6 +78,12 @@ body {
     .cardArea {
         background-color: transparent;
         box-shadow: none;
+    }
+    .cardArea .card {
+        max-width: 80%;
+    }
+    .cardArea .cardDet {
+        padding: 10px 20px;
     }
 }
 
