@@ -1,0 +1,84 @@
+/* Style by Praveen */
+
+body {
+    font-family: "Outfit", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 15px;
+    margin: 0;
+    padding: 0;
+}
+
+.mainSec {
+    height: 100vh;
+    overflow: hidden;
+}
+
+.mainSec .container {
+    max-width: 90%;
+    margin: auto;
+    height: 100%;
+}
+
+.mainSec .container .row {
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.cardArea {
+    width: 100%;
+    background: hsl(212, 45%, 89%);
+    height: 75%;
+    display: flex;
+    align-items: center;
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.16), 0 4px 10px rgb(255 255 255 / 23%);
+}
+
+.cardArea .card {
+    background-color: white;
+    max-width: 320px;
+    margin: auto;
+    display: block;
+    padding: 15px;
+    border-radius: 15px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.16), 0 4px 10px rgb(201 201 201 / 23%);
+}
+
+.cardArea .cardImg img {
+    width: 100%;
+    display: block;
+    margin: auto;
+    border-radius: 15px;
+}
+
+.cardArea .cardDet {
+    text-align: center;
+    padding: 0px 30px;
+}
+
+.cardArea .cardDet h3 {
+    font-size: 22px;
+    line-height: 1.4;
+    color: #1F314F;
+}
+
+.cardArea .cardDet p {
+    font-size: 15px;
+    line-height: 1.4;
+    color: #68778D;
+}
+
+@media screen and (max-width: 990px) {
+    .mainSec {
+        background: hsl(212, 45%, 89%);
+    }
+    .cardArea {
+        background-color: transparent;
+        box-shadow: none;
+    }
+}
+
+/* Style by Praveen */
