@@ -39,11 +39,11 @@ body {
 
 .cardArea .card {
     background-color: white;
-    max-width: 320px;
+    max-width: 325px;
     margin: auto;
     display: block;
-    padding: 15px;
-    border-radius: 15px;
+    padding: 16px;
+    border-radius: 20px;
     box-shadow: 0 4px 10px rgba(0, 0, 0, 0.16), 0 4px 10px rgb(201 201 201 / 23%);
 }
 
@@ -56,7 +56,7 @@ body {
 
 .cardArea .cardDet {
     text-align: center;
-    padding: 0px 30px;
+    padding: 10px 30px;
 }
 
 .cardArea .cardDet h3 {
